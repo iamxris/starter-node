@@ -6,9 +6,9 @@ var logger = require('morgan');
 var twilio = require('twilio');
 
 // Load configuration information from system environment variables.
-var TWILIO_ACCOUNT_SID = process.env.TWILIO_ACCOUNT_SID,
-    TWILIO_AUTH_TOKEN = process.env.TWILIO_AUTH_TOKEN,
-    TWILIO_PHONE_NUMBER = process.env.TWILIO_PHONE_NUMBER;
+var TWILIO_ACCOUNT_SID = AC65070dbe516454a96ad9a2b6e7b6f6b4;
+    TWILIO_AUTH_TOKEN = e18e79675cde8aae12cb31c9d9a1f816;
+    TWILIO_PHONE_NUMBER = +12029463149;
 
 // Create an authenticated client to access the Twilio REST API
 var client = twilio(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN);
