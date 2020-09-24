@@ -20,9 +20,9 @@ To make these changes persist for every new terminal (on OS X), you can edit the
 
 On Windows, the easiest way to set permanent environment variables (as of Windows 8) is using the `setx` command.  Note that there is no `=`, just the key and value separated by a space:
 
-    setx TWILIO_ACCOUNT_SID 'ACXXXXXXXXX'
-    setx TWILIO_AUTH_TOKEN 'XXXXXXXXX'
-    setx TWILIO_PHONE_NUMBER '+16518675309'
+    setx TWILIO_ACCOUNT_SID 'AC65070dbe516454a96ad9a2b6e7b6f6b4'
+    setx TWILIO_AUTH_TOKEN 'e18e79675cde8aae12cb31c9d9a1f816'
+    setx TWILIO_PHONE_NUMBER '+12029463149'
 
 ## Running the application
 
